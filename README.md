@@ -19,9 +19,7 @@ Android only from a Linux or Mac (it cross-compiles).
 To install the newly created APK on your device, use the following script:
 ./android/install-kiwix-on-device.sh
 
-*********************************************************************
-****************************** CUSTOM APPS **************************
-*********************************************************************
+# CUSTOM APPS 
 
 Android Custom App are single-content Kiwix-android clones. Those app
 are tied to a single content and CAN NOT open other zim file. As well,
@@ -108,9 +106,7 @@ play-store script.
 
 To update the apk only without a content update:
 
-*********************************************************************
-*************** CUSTOM APPS - APK UPDATE ONLY ***********************
-*********************************************************************
+# CUSTOM APPS - APK UPDATE ONLY
 
 1. Add the "content_version_code" field to json file and set it to the
 version code of the expansion file you want (check google play to find
@@ -128,9 +124,7 @@ use.  Make sure to tell Google the right one.
 
 6. Publish
 
-*********************************************************************
-********************** APK WITH ZIM FILE ****************************
-*********************************************************************
+# APK WITH ZIM FILE 
 
 To make an APK which embeds a ZIM file:
 * In the json file, add:
@@ -138,9 +132,7 @@ To make an APK which embeds a ZIM file:
 * You might need to set up following env. variable:
     _JAVA_OPTIONS="\"-Xmx4096m\" \"-Xms4096m\""
 
-*********************************************************************
-*************************** CONTACT *********************************
-*********************************************************************
+# CONTACT 
 
 Email: kiwix-developer@lists.sourceforge.net or contact@kiwix.org
 Jabber: kelson@kiwix.org
@@ -150,8 +142,7 @@ You can use IRC web interface on http://chat.kiwix.org/
 
 More... http://wiki.kiwix.org/wiki/Communication
 
-*********************************************************************
-********************** LEGAL & DISCLAIMER ***************************
-*********************************************************************
+
+# LEGAL & DISCLAIMER 
 
 Read '../COPYING' file
